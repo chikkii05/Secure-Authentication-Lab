@@ -1,0 +1,17 @@
+test_duplicate_registration (test_auth.AuthTests.test_duplicate_registration) ... ok
+test_generic_login_error (test_auth.AuthTests.test_generic_login_error) ... ok
+test_input_validation (test_auth.AuthTests.test_input_validation) ... ok
+test_logout_revokes_token (test_auth.AuthTests.test_logout_revokes_token) ... ok
+test_password_is_hashed_and_login_works (test_auth.AuthTests.test_password_is_hashed_and_login_works) ... ok
+test_rate_limit (test_auth.AuthTests.test_rate_limit) ... ok
+test_rate_limit_blocks_username_rotation (test_auth.AuthTests.test_rate_limit_blocks_username_rotation) ... ok
+test_same_password_gets_different_hashes (test_auth.AuthTests.test_same_password_gets_different_hashes) ... ok
+test_token_expiry (test_auth.AuthTests.test_token_expiry) ... ok
+test_token_tampering (test_auth.AuthTests.test_token_tampering) ... ok
+test_full_flow_cookie_flags_me_and_logout (test_auth.HttpTests.test_full_flow_cookie_flags_me_and_logout) ... ok
+test_security_headers_and_bad_body (test_auth.HttpTests.test_security_headers_and_bad_body) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.458s
+
+OK
